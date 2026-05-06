@@ -1,0 +1,44 @@
+<svg width="1200" height="410" viewBox="0 0 1200 410" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected Systems</title>
+  <desc id="desc">Selected engineering systems and build themes.</desc>
+  <defs>
+    <linearGradient id="edge" x1="38" y1="34" x2="1162" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/><stop offset="0.52" stop-color="#00d4ff"/><stop offset="1" stop-color="#b026ff"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.05"/>
+    </pattern>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="410" fill="transparent"/>
+  <rect x="38" y="34" width="1124" height="342" rx="28" fill="#070b10"/>
+  <rect x="39" y="35" width="1122" height="340" rx="27" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="342" rx="28" fill="url(#grid)"/>
+  <g transform="translate(76 72)">
+    <rect x="0" y="0" width="186" height="30" rx="15" fill="#0d141d" stroke="#263449"/>
+    <text class="mono" x="20" y="20" fill="#39ff14" font-size="12" font-weight="900" letter-spacing="2">SELECTED WORK</text>
+    <text class="sans" x="0" y="72" fill="#f8fafc" font-size="34" font-weight="900">Selected systems with product intent.</text>
+    <text class="sans" x="0" y="106" fill="#94a3b8" font-size="18" font-weight="650">Work direction, product thinking, and engineering outcomes over vanity counters.</text>
+  </g>
+
+  <g transform="translate(76 218)">
+    <rect x="0" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="22" y="34" fill="#39ff14" font-size="13" font-weight="900">CS-AUTOMATA</text>
+    <text class="sans" x="22" y="67" fill="#f8fafc" font-size="18" font-weight="850">Customer success automation</text>
+    <text class="sans" x="22" y="93" fill="#94a3b8" font-size="14" font-weight="700">Retention workflows, AI touchpoints, ops logic.</text>
+
+    <rect x="370" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="392" y="34" fill="#00d4ff" font-size="13" font-weight="900">PORTFOLIO INFRA</text>
+    <text class="sans" x="392" y="67" fill="#f8fafc" font-size="18" font-weight="850">Personal platform and profile</text>
+    <text class="sans" x="392" y="93" fill="#94a3b8" font-size="14" font-weight="700">GitHub Pages, presentation, system identity.</text>
+
+    <rect x="740" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="762" y="34" fill="#b026ff" font-size="13" font-weight="900">SAAS BACKENDS</text>
+    <text class="sans" x="762" y="67" fill="#f8fafc" font-size="18" font-weight="850">APIs and analytics workflows</text>
+    <text class="sans" x="762" y="91" fill="#94a3b8" font-size="14" font-weight="700">Auth, data models, dashboards,</text>
+    <text class="sans" x="762" y="110" fill="#94a3b8" font-size="14" font-weight="700">and automation flows.</text>
+  </g>
+</svg>

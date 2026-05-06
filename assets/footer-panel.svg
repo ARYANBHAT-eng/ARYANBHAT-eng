@@ -1,0 +1,18 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Footer</title>
+  <desc id="desc">Closing profile footer.</desc>
+  <defs>
+    <linearGradient id="edge" x1="92" y1="38" x2="1108" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/><stop offset="0.5" stop-color="#00d4ff"/><stop offset="1" stop-color="#b026ff"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="160" fill="transparent"/>
+  <rect x="92" y="38" width="1016" height="84" rx="26" fill="#070b10"/>
+  <rect x="93" y="39" width="1014" height="82" rx="25" stroke="url(#edge)" stroke-width="2"/>
+  <text class="mono" x="600" y="75" text-anchor="middle" fill="#39ff14" font-size="14" font-weight="900" letter-spacing="2">BUILDING IN PRODUCTION</text>
+  <text class="sans" x="600" y="103" text-anchor="middle" fill="#cbd5e1" font-size="18" font-weight="800">Backend systems. Automation platforms. AI-integrated products.</text>
+</svg>

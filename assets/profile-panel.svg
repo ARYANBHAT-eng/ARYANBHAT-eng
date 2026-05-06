@@ -1,0 +1,62 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile</title>
+  <desc id="desc">Aryan Bhat profile summary, mission, identity, and focus areas.</desc>
+  <defs>
+    <linearGradient id="edge" x1="40" y1="35" x2="1160" y2="315" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/>
+      <stop offset="0.52" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#b026ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(170 48) rotate(35) scale(520 260)">
+      <stop stop-color="#39ff14" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#39ff14" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#39ff14" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.055"/>
+    </pattern>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="420" fill="transparent"/>
+  <rect x="38" y="34" width="1124" height="352" rx="28" fill="#070b10"/>
+  <rect x="39" y="35" width="1122" height="350" rx="27" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="352" rx="28" fill="url(#grid)"/>
+  <rect x="38" y="34" width="1124" height="352" rx="28" fill="url(#glow)"/>
+
+  <g transform="translate(76 72)">
+    <rect x="0" y="0" width="126" height="30" rx="15" fill="#0d141d" stroke="#263449"/>
+    <text class="mono" x="20" y="20" fill="#39ff14" font-size="12" font-weight="900" letter-spacing="2">PROFILE</text>
+    <text class="sans" x="0" y="76" fill="#f8fafc" font-size="34" font-weight="900">Engineer for product systems</text>
+    <text class="sans" x="0" y="116" fill="#f8fafc" font-size="34" font-weight="900">that need to work.</text>
+    <text class="sans" x="0" y="158" fill="#cbd5e1" font-size="19" font-weight="650">I build intelligent backends, workflow automation, analytics surfaces,</text>
+    <text class="sans" x="0" y="184" fill="#cbd5e1" font-size="19" font-weight="650">and scalable SaaS infrastructure for production execution.</text>
+  </g>
+
+  <g transform="translate(76 292)">
+    <rect x="0" y="0" width="285" height="42" rx="13" fill="#0c121a" stroke="#1f3344"/>
+    <text class="mono" x="18" y="27" fill="#94a3b8" font-size="13" font-weight="800">ROLE</text>
+    <text class="sans" x="72" y="28" fill="#f8fafc" font-size="15" font-weight="800">Full Stack Product Engineer</text>
+    <rect x="300" y="0" width="260" height="42" rx="13" fill="#0c121a" stroke="#1f3344"/>
+    <text class="mono" x="318" y="27" fill="#94a3b8" font-size="13" font-weight="800">EDU</text>
+    <text class="sans" x="366" y="28" fill="#f8fafc" font-size="15" font-weight="800">B.Tech IT Graduate - 2025</text>
+    <rect x="575" y="0" width="130" height="42" rx="13" fill="#0c121a" stroke="#1f3344"/>
+    <text class="mono" x="593" y="27" fill="#94a3b8" font-size="13" font-weight="800">BASE</text>
+    <text class="sans" x="647" y="28" fill="#f8fafc" font-size="15" font-weight="800">Jammu</text>
+  </g>
+
+  <g transform="translate(812 74)">
+    <rect x="0" y="0" width="288" height="198" rx="22" fill="#0a1018" stroke="#233044"/>
+    <text class="mono" x="24" y="38" fill="#39ff14" font-size="14" font-weight="900" letter-spacing="2">FOCUS AREAS</text>
+    <g class="sans" font-size="15" font-weight="850">
+      <rect x="24" y="62" width="222" height="30" rx="10" fill="#101827" stroke="#263449"/>
+      <text x="42" y="83" fill="#e5e7eb">Backend Architecture</text>
+      <rect x="24" y="102" width="238" height="30" rx="10" fill="#101827" stroke="#263449"/>
+      <text x="42" y="123" fill="#e5e7eb">Workflow Automation</text>
+      <rect x="24" y="142" width="120" height="30" rx="10" fill="#101827" stroke="#263449"/>
+      <text x="42" y="163" fill="#e5e7eb">AI Systems</text>
+    </g>
+  </g>
+</svg>
