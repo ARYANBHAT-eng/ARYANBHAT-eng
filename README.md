@@ -1,20 +1,15 @@
 <div align="center">
 
 <!-- ██████████████████████ HERO BANNER ██████████████████████ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=230&text=ARYAN%20BHAT&fontColor=39ff14&color=0:0d0d0d,45:0d001a,100:0d0d0d&stroke=39ff14&strokeWidth=2&fontSize=65&fontAlignY=55&desc=Full%20Stack%20Product%20Engineer&descAlignY=78&descColor=bf00ff&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=2500&pause=900&color=39FF14&center=true&vCenter=true&width=720&lines=Building+Scalable+Backend+Systems+%7C+AI+Integration;Workflow+Automation+%7C+SaaS+Infrastructure;FastAPI+%E2%80%A2+React+%E2%80%A2+PostgreSQL+%E2%80%A2+ML+Pipelines;Final+Year+IT+Student+%7C+Production-Ready+Engineer" alt="Typing SVG" />
+<img src="./assets/readme-hero.svg" width="100%" alt="Aryan Bhat - Full Stack Product Engineer"/>
 
 <br/><br/>
 
 <!-- SOCIAL BADGES -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aryan-bhat-424199328)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aaryaaawn)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryanb3435@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-39ff14?style=for-the-badge&logo=github&logoColor=black)](https://github.com/ARYANBHAT-eng)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=39FF14)](https://www.linkedin.com/in/aryan-bhat-424199328)
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=39FF14)](https://www.instagram.com/aaryaaawn)
+[![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=39FF14)](mailto:aryanb3435@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=39FF14)](https://github.com/ARYANBHAT-eng)
 
 </div>
 
@@ -28,7 +23,7 @@
 engineer = {
     "name"      : "Aryan Bhat",
     "role"      : "Full Stack Product Engineer",
-    "education" : "Final Year — Information Technology",
+    "education" : "B.Tech IT Graduate - Batch 2025",
     "location"  : "Jammu, India",
     "mission"   : "Building intelligent backends, automation systems & scalable SaaS infrastructure.",
     "interests" : [
