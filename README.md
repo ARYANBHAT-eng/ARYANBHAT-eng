@@ -95,10 +95,10 @@ engineer = {
 
 | Period | Role | Company | Focus Area |
 |:---|:---|:---|:---|
+| `Mar 2026 – Present` | Founding Frontend Developer | **Jammu Book Club** | React Frontend · UI Systems · Product Engineering |
 | `Aug 2025 – Jan 2026` | Full Stack / SDE Intern | **BitePay India** | Backend APIs · Auth Systems · Scalable Architecture |
 | `Jan 2025 – Apr 2025` | Project Intern | **HT Digital Streams** | Analytics Dashboards · KPI Systems · Data Pipelines |
 | `May 2021 – Jun 2021` | Engagement & Analytics Intern | **Metvy** | User Analytics · Behavioral Insights · Operations |
-| `Early Stage` | Founding Frontend Developer | **Jammu Book Club** | React Frontend · UI Systems · Product Engineering |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2" width="100%"/>
 
