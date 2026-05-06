@@ -4,7 +4,7 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=39FF14)](https://www.linkedin.com/in/aryan-bhat-424199328)
+[![LinkedIn](./assets/linkedin-badge.svg)](https://www.linkedin.com/in/aryan-bhat-424199328)
 [![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=39FF14)](https://www.instagram.com/aaryaaawn)
 [![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=39FF14)](mailto:aryanb3435@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=39FF14)](https://github.com/ARYANBHAT-eng)
