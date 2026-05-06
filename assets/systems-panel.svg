@@ -1,44 +1,49 @@
-<svg width="1200" height="410" viewBox="0 0 1200 410" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Selected Systems</title>
-  <desc id="desc">Selected engineering systems and build themes.</desc>
+<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Systems I Build</title>
+  <desc id="desc">Types of systems Aryan Bhat builds.</desc>
   <defs>
-    <linearGradient id="edge" x1="38" y1="34" x2="1162" y2="376" gradientUnits="userSpaceOnUse">
+    <linearGradient id="edge" x1="38" y1="34" x2="1162" y2="436" gradientUnits="userSpaceOnUse">
       <stop stop-color="#39ff14"/><stop offset="0.52" stop-color="#00d4ff"/><stop offset="1" stop-color="#b026ff"/>
     </linearGradient>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.05"/>
+      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.045"/>
     </pattern>
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
       .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .kicker { fill:#39ff14; font-size:12px; font-weight:900; letter-spacing:2px; }
     </style>
   </defs>
-  <rect width="1200" height="410" fill="transparent"/>
-  <rect x="38" y="34" width="1124" height="342" rx="28" fill="#070b10"/>
-  <rect x="39" y="35" width="1122" height="340" rx="27" stroke="url(#edge)" stroke-width="2"/>
-  <rect x="38" y="34" width="1124" height="342" rx="28" fill="url(#grid)"/>
+
+  <rect width="1200" height="470" fill="transparent"/>
+  <rect x="38" y="34" width="1124" height="402" rx="28" fill="#070b10"/>
+  <rect x="39" y="35" width="1122" height="400" rx="27" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="402" rx="28" fill="url(#grid)"/>
+
   <g transform="translate(76 72)">
-    <rect x="0" y="0" width="186" height="30" rx="15" fill="#0d141d" stroke="#263449"/>
-    <text class="mono" x="20" y="20" fill="#39ff14" font-size="12" font-weight="900" letter-spacing="2">SELECTED WORK</text>
-    <text class="sans" x="0" y="72" fill="#f8fafc" font-size="34" font-weight="900">Selected systems with product intent.</text>
-    <text class="sans" x="0" y="106" fill="#94a3b8" font-size="18" font-weight="650">Work direction, product thinking, and engineering outcomes over vanity counters.</text>
+    <rect x="0" y="0" width="190" height="32" rx="16" fill="#0d141d" stroke="#263449"/>
+    <text class="mono kicker" x="20" y="21">SYSTEMS I BUILD</text>
+    <text class="sans" x="0" y="78" fill="#f8fafc" font-size="36" font-weight="900">Systems I can build end-to-end.</text>
+    <text class="sans" x="0" y="114" fill="#94a3b8" font-size="19" font-weight="650">Backend platforms, automation flows, and AI product layers with practical scope.</text>
   </g>
 
-  <g transform="translate(76 218)">
-    <rect x="0" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
-    <text class="mono" x="22" y="34" fill="#39ff14" font-size="13" font-weight="900">CS-AUTOMATA</text>
-    <text class="sans" x="22" y="67" fill="#f8fafc" font-size="18" font-weight="850">Customer success automation</text>
-    <text class="sans" x="22" y="93" fill="#94a3b8" font-size="14" font-weight="700">Retention workflows, AI touchpoints, ops logic.</text>
+  <g transform="translate(76 214)">
+    <rect x="0" y="0" width="320" height="152" rx="22" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="26" y="38" fill="#39ff14" font-size="13" font-weight="900" letter-spacing="1.8">01 / BACKEND PLATFORMS</text>
+    <text class="sans" x="26" y="78" fill="#f8fafc" font-size="23" font-weight="900">APIs that hold up</text>
+    <text class="sans" x="26" y="112" fill="#94a3b8" font-size="16" font-weight="700">Auth, data models, service boundaries,</text>
+    <text class="sans" x="26" y="136" fill="#94a3b8" font-size="16" font-weight="700">and backend architecture.</text>
 
-    <rect x="370" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
-    <text class="mono" x="392" y="34" fill="#00d4ff" font-size="13" font-weight="900">PORTFOLIO INFRA</text>
-    <text class="sans" x="392" y="67" fill="#f8fafc" font-size="18" font-weight="850">Personal platform and profile</text>
-    <text class="sans" x="392" y="93" fill="#94a3b8" font-size="14" font-weight="700">GitHub Pages, presentation, system identity.</text>
+    <rect x="364" y="0" width="320" height="152" rx="22" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="390" y="38" fill="#00d4ff" font-size="13" font-weight="900" letter-spacing="1.8">02 / AUTOMATION FLOWS</text>
+    <text class="sans" x="390" y="78" fill="#f8fafc" font-size="23" font-weight="900">Workflows with logic</text>
+    <text class="sans" x="390" y="112" fill="#94a3b8" font-size="16" font-weight="700">Operational tools, triggers, task flows,</text>
+    <text class="sans" x="390" y="136" fill="#94a3b8" font-size="16" font-weight="700">and customer-facing automation.</text>
 
-    <rect x="740" y="0" width="330" height="112" rx="20" fill="#0a1018" stroke="#213047"/>
-    <text class="mono" x="762" y="34" fill="#b026ff" font-size="13" font-weight="900">SAAS BACKENDS</text>
-    <text class="sans" x="762" y="67" fill="#f8fafc" font-size="18" font-weight="850">APIs and analytics workflows</text>
-    <text class="sans" x="762" y="91" fill="#94a3b8" font-size="14" font-weight="700">Auth, data models, dashboards,</text>
-    <text class="sans" x="762" y="110" fill="#94a3b8" font-size="14" font-weight="700">and automation flows.</text>
+    <rect x="728" y="0" width="320" height="152" rx="22" fill="#0a1018" stroke="#213047"/>
+    <text class="mono" x="754" y="38" fill="#b026ff" font-size="13" font-weight="900" letter-spacing="1.8">03 / AI PRODUCT LAYERS</text>
+    <text class="sans" x="754" y="78" fill="#f8fafc" font-size="23" font-weight="900">AI where it fits</text>
+    <text class="sans" x="754" y="112" fill="#94a3b8" font-size="16" font-weight="700">RAG pipelines, NLP utilities, analytics,</text>
+    <text class="sans" x="754" y="136" fill="#94a3b8" font-size="16" font-weight="700">and decision support surfaces.</text>
   </g>
 </svg>
