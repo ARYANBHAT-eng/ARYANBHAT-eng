@@ -1,71 +1,126 @@
-<svg width="1200" height="470" viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Experience</title>
-  <desc id="desc">Experience timeline for Aryan Bhat.</desc>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Experience — Aryan Bhat</title>
+  <desc id="desc">Career timeline for Aryan Bhat — built across teams, stacks, and domains.</desc>
   <defs>
-    <linearGradient id="edge" x1="38" y1="34" x2="1162" y2="436" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#39ff14"/><stop offset="0.52" stop-color="#00d4ff"/><stop offset="1" stop-color="#b026ff"/>
+    <linearGradient id="edge" x1="38" y1="34" x2="1162" y2="766" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/><stop offset="0.5" stop-color="#00d4ff"/><stop offset="1" stop-color="#b026ff"/>
+    </linearGradient>
+    <linearGradient id="spine-grad" x1="120" y1="190" x2="120" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39ff14"/>
+      <stop offset="0.5" stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#b026ff"/>
+    </linearGradient>
+    <linearGradient id="acc-green" x1="166" y1="0" x2="1116" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#39ff14" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#39ff14" stop-opacity="0.7"/>
+      <stop offset="90%" stop-color="#39ff14" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#39ff14" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="acc-cyan" x1="166" y1="0" x2="1116" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#00d4ff" stop-opacity="0.7"/>
+      <stop offset="90%" stop-color="#00d4ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="acc-purple" x1="166" y1="0" x2="1116" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#b026ff" stop-opacity="0"/>
+      <stop offset="10%" stop-color="#b026ff" stop-opacity="0.7"/>
+      <stop offset="90%" stop-color="#b026ff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#b026ff" stop-opacity="0"/>
     </linearGradient>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.05"/>
+      <path d="M34 0H0V34" stroke="#94f985" stroke-opacity="0.045"/>
     </pattern>
+    <radialGradient id="glow-left" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(172 92) rotate(44) scale(430 270)">
+      <stop stop-color="#39ff14" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#39ff14" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#39ff14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-right" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 112) rotate(134) scale(360 300)">
+      <stop stop-color="#00d4ff" stop-opacity="0.28"/>
+      <stop offset="0.58" stop-color="#b026ff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#b026ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-shadow" x="0" y="0" width="1200" height="800" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.26"/>
+    </filter>
+    <clipPath id="card-clip"><rect x="38" y="34" width="1124" height="732" rx="28"/></clipPath>
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
       .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .scan { animation: scan 5.5s ease-in-out infinite; }
+      @keyframes scan {
+        0% { transform: translateY(-90px); opacity: 0; }
+        18% { opacity: 0.55; }
+        52% { opacity: 0.32; }
+        100% { transform: translateY(760px); opacity: 0; }
+      }
     </style>
   </defs>
-  <rect width="1200" height="470" fill="transparent"/>
-  <rect x="38" y="34" width="1124" height="402" rx="28" fill="#070b10"/>
-  <rect x="39" y="35" width="1122" height="400" rx="27" stroke="url(#edge)" stroke-width="2"/>
-  <rect x="38" y="34" width="1124" height="402" rx="28" fill="url(#grid)"/>
 
-  <g transform="translate(76 72)">
-    <rect x="0" y="0" width="156" height="30" rx="15" fill="#0d141d" stroke="#263449"/>
-    <text class="mono" x="20" y="20" fill="#39ff14" font-size="12" font-weight="900" letter-spacing="2">EXPERIENCE</text>
-    <text class="sans" x="0" y="72" fill="#f8fafc" font-size="34" font-weight="900">Product engineering across data, APIs, and interfaces.</text>
+  <rect width="1200" height="800" fill="transparent"/>
+  <rect x="38" y="34" width="1124" height="732" rx="28" fill="#070b10" filter="url(#soft-shadow)"/>
+  <rect x="39" y="35" width="1122" height="730" rx="27" stroke="url(#edge)" stroke-width="2"/>
+  <rect x="38" y="34" width="1124" height="732" rx="28" fill="url(#grid)"/>
+  <g clip-path="url(#card-clip)">
+    <rect x="38" y="34" width="1124" height="732" fill="url(#glow-left)"/>
+    <rect x="38" y="34" width="1124" height="732" fill="url(#glow-right)"/>
+    <rect class="scan" x="38" y="0" width="1124" height="68" fill="#39ff14" opacity="0.08"/>
   </g>
 
-  <g transform="translate(100 188)">
-    <path d="M0 0H1012" stroke="#223047" stroke-width="2"/>
-    <circle cx="0" cy="0" r="8" fill="#39ff14"/>
-    <circle cx="336" cy="0" r="8" fill="#00d4ff"/>
-    <circle cx="672" cy="0" r="8" fill="#b026ff"/>
-    <circle cx="1012" cy="0" r="8" fill="#39ff14"/>
+  <g transform="translate(76 72)">
+    <rect x="0" y="0" width="160" height="32" rx="16" fill="#0d141d" stroke="#263449"/>
+    <text class="mono" x="20" y="21" fill="#39ff14" font-size="12" font-weight="900" letter-spacing="2">EXPERIENCE</text>
+    <text class="sans" x="0" y="78" fill="#f8fafc" font-size="34" font-weight="900">Built across teams, stacks, and domains.</text>
+  </g>
 
-    <g transform="translate(0 34)">
-      <rect x="0" y="0" width="245" height="158" rx="18" fill="#0a1018" stroke="#213047"/>
-      <text class="mono" x="18" y="30" fill="#39ff14" font-size="12" font-weight="900">MAR 2026 - PRESENT</text>
-      <text class="sans" x="18" y="61" fill="#f8fafc" font-size="18" font-weight="900">Founding Frontend</text>
-      <text class="sans" x="18" y="84" fill="#f8fafc" font-size="18" font-weight="900">Developer</text>
-      <text class="sans" x="18" y="109" fill="#cbd5e1" font-size="16" font-weight="800">Jammu Book Club</text>
-      <text class="sans" x="18" y="134" fill="#94a3b8" font-size="14" font-weight="700">React frontend, UI systems,</text>
-      <text class="sans" x="18" y="154" fill="#94a3b8" font-size="14" font-weight="700">product engineering.</text>
+  <g transform="translate(76 185)">
+    <line x1="44" y1="8" x2="44" y2="475" stroke="url(#spine-grad)" stroke-width="2"/>
+
+    <circle cx="44" cy="27" r="8" fill="#39ff14"/>
+    <line x1="52" y1="27" x2="90" y2="27" stroke="#39ff14" stroke-opacity="0.6" stroke-width="1.5"/>
+    <g transform="translate(90 5)">
+      <rect x="0" y="0" width="950" height="120" rx="18" fill="#0a1018" stroke="#39ff14" stroke-opacity="0.25"/>
+      <rect x="0" y="0" width="950" height="3" rx="1" fill="url(#acc-green)"/>
+      <text class="mono" x="22" y="26" fill="#39ff14" font-size="13" font-weight="900" letter-spacing="1.5">MAR 2026 - PRESENT</text>
+      <text class="sans" x="22" y="54" fill="#f8fafc" font-size="20" font-weight="900">Founding Frontend Developer</text>
+      <text class="sans" x="22" y="78" fill="#39ff14" font-size="15" font-weight="700">Jammu Book Club</text>
+      <text class="sans" x="22" y="100" fill="#94a3b8" font-size="13" font-weight="600">Next.js App Router · mobile-first platform · 5,600+ followers · content automation</text>
     </g>
 
-    <g transform="translate(256 34)">
-      <rect x="0" y="0" width="245" height="158" rx="18" fill="#0a1018" stroke="#213047"/>
-      <text class="mono" x="18" y="30" fill="#00d4ff" font-size="12" font-weight="900">AUG 2025 - JAN 2026</text>
-      <text class="sans" x="18" y="66" fill="#f8fafc" font-size="18" font-weight="900">Full Stack / SDE Intern</text>
-      <text class="sans" x="18" y="94" fill="#cbd5e1" font-size="16" font-weight="800">BitePay India</text>
-      <text class="sans" x="18" y="124" fill="#94a3b8" font-size="14" font-weight="700">Backend APIs, auth systems,</text>
-      <text class="sans" x="18" y="146" fill="#94a3b8" font-size="14" font-weight="700">scalable architecture.</text>
+    <circle cx="44" cy="172" r="8" fill="#00d4ff"/>
+    <line x1="52" y1="172" x2="90" y2="172" stroke="#00d4ff" stroke-opacity="0.6" stroke-width="1.5"/>
+    <g transform="translate(90 150)">
+      <rect x="0" y="0" width="950" height="120" rx="18" fill="#0a1018" stroke="#00d4ff" stroke-opacity="0.25"/>
+      <rect x="0" y="0" width="950" height="3" rx="1" fill="url(#acc-cyan)"/>
+      <text class="mono" x="22" y="26" fill="#00d4ff" font-size="13" font-weight="900" letter-spacing="1.5">AUG 2025 - JAN 2026</text>
+      <text class="sans" x="22" y="54" fill="#f8fafc" font-size="20" font-weight="900">Full Stack / SDE Intern</text>
+      <text class="sans" x="22" y="78" fill="#00d4ff" font-size="15" font-weight="700">BitePay India</text>
+      <text class="sans" x="22" y="100" fill="#94a3b8" font-size="13" font-weight="600">React · microservices · 750+ users · 14,000+ orders · RazorPay + Firebase FCM</text>
     </g>
 
-    <g transform="translate(512 34)">
-      <rect x="0" y="0" width="245" height="158" rx="18" fill="#0a1018" stroke="#213047"/>
-      <text class="mono" x="18" y="30" fill="#b026ff" font-size="12" font-weight="900">JAN 2025 - APR 2025</text>
-      <text class="sans" x="18" y="66" fill="#f8fafc" font-size="18" font-weight="900">Project Intern</text>
-      <text class="sans" x="18" y="94" fill="#cbd5e1" font-size="16" font-weight="800">HT Digital Streams</text>
-      <text class="sans" x="18" y="124" fill="#94a3b8" font-size="14" font-weight="700">Analytics dashboards, KPI</text>
-      <text class="sans" x="18" y="146" fill="#94a3b8" font-size="14" font-weight="700">systems, data pipelines.</text>
+    <circle cx="44" cy="317" r="8" fill="#b026ff"/>
+    <line x1="52" y1="317" x2="90" y2="317" stroke="#b026ff" stroke-opacity="0.6" stroke-width="1.5"/>
+    <g transform="translate(90 295)">
+      <rect x="0" y="0" width="950" height="120" rx="18" fill="#0a1018" stroke="#b026ff" stroke-opacity="0.25"/>
+      <rect x="0" y="0" width="950" height="3" rx="1" fill="url(#acc-purple)"/>
+      <text class="mono" x="22" y="26" fill="#b026ff" font-size="13" font-weight="900" letter-spacing="1.5">JAN 2025 - APR 2025</text>
+      <text class="sans" x="22" y="54" fill="#f8fafc" font-size="20" font-weight="900">Project Intern</text>
+      <text class="sans" x="22" y="78" fill="#b026ff" font-size="15" font-weight="700">HT Digital Streams</text>
+      <text class="sans" x="22" y="100" fill="#94a3b8" font-size="13" font-weight="600">Analytics dashboards · KPI systems · data pipelines · reporting infrastructure</text>
     </g>
 
-    <g transform="translate(768 34)">
-      <rect x="0" y="0" width="245" height="158" rx="18" fill="#0a1018" stroke="#213047"/>
-      <text class="mono" x="18" y="30" fill="#39ff14" font-size="12" font-weight="900">MAY 2021 - JUN 2021</text>
-      <text class="sans" x="18" y="66" fill="#f8fafc" font-size="18" font-weight="900">Engagement Intern</text>
-      <text class="sans" x="18" y="94" fill="#cbd5e1" font-size="16" font-weight="800">Metvy</text>
-      <text class="sans" x="18" y="124" fill="#94a3b8" font-size="14" font-weight="700">User analytics, behavioral</text>
-      <text class="sans" x="18" y="146" fill="#94a3b8" font-size="14" font-weight="700">insights, operations.</text>
+    <g opacity="0.65">
+      <circle cx="44" cy="462" r="8" fill="#39ff14"/>
+      <line x1="52" y1="462" x2="90" y2="462" stroke="#39ff14" stroke-opacity="0.6" stroke-width="1.5"/>
+      <g transform="translate(90 440)">
+        <rect x="0" y="0" width="950" height="120" rx="18" fill="#0a1018" stroke="#39ff14" stroke-opacity="0.25"/>
+        <rect x="0" y="0" width="950" height="3" rx="1" fill="url(#acc-green)"/>
+        <text class="mono" x="22" y="26" fill="#39ff14" font-size="13" font-weight="900" letter-spacing="1.5">MAY 2021 - JUN 2021</text>
+        <text class="sans" x="22" y="54" fill="#f8fafc" font-size="20" font-weight="900">Engagement Intern</text>
+        <text class="sans" x="22" y="78" fill="#39ff14" font-size="15" font-weight="700">Metvy</text>
+        <text class="sans" x="22" y="100" fill="#94a3b8" font-size="13" font-weight="600">User analytics · behavioral insights · engagement operations</text>
+      </g>
     </g>
   </g>
 </svg>
