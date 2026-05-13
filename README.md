@@ -11,7 +11,7 @@
 
 <br/>
 
-<img src="./assets/profile-panel.svg" width="100%" alt="Profile summary for Aryan Bhat"/>
+<img src="./assets/systems-panel.svg" width="100%" alt="Systems Aryan Bhat builds"/>
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 <br/>
 
-<img src="./assets/systems-panel.svg" width="100%" alt="Systems Aryan Bhat builds"/>
+<img src="./assets/profile-panel.svg" width="100%" alt="Profile summary for Aryan Bhat"/>
 
 <br/>
 
