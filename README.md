@@ -21,16 +21,4 @@
 
 <img src="./assets/experience-panel.svg" width="100%" alt="Experience timeline for Aryan Bhat"/>
 
-<br/>
-
-<img src="./assets/focus-panel.svg" width="100%" alt="Current engineering focus areas"/>
-
-<br/>
-
-<img src="./assets/profile-panel.svg" width="100%" alt="Profile summary for Aryan Bhat"/>
-
-<br/>
-
-<img src="./assets/footer-panel.svg" width="100%" alt="Building in production"/>
-
 </div>
